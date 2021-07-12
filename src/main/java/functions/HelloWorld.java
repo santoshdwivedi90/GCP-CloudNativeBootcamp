@@ -1,4 +1,4 @@
-package functions;
+package com.functions;
 
 import com.google.cloud.functions.HttpFunction;
 import com.google.cloud.functions.HttpRequest;
@@ -40,6 +40,6 @@ public class HelloWorld implements HttpFunction {
     }
 
     var writer = new PrintWriter(response.getWriter());
-    writer.printf("Helloji %s!", name);
+    writer.printf("Helloji ji%s!", name);
   }
 }
