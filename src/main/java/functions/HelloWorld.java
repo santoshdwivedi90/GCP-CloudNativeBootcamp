@@ -40,6 +40,6 @@ public class HelloWorld implements HttpFunction {
     }
 
     var writer = new PrintWriter(response.getWriter());
-    writer.printf("Hello Sirji%s!", name);
+    writer.printf("Hello jiSirji%s!", name);
   }
 }
