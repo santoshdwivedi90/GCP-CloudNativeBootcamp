@@ -1,7 +1,7 @@
 steps:
   - name: "gcr.io/cloud-builders/mvn"
     args: ["clean", "verify"]
-    dir: "src/main/java/functions"
+    dir: "/"
   - name: "gcr.io/cloud-builders/gcloud"
     args:
       [
@@ -14,4 +14,4 @@ steps:
         "--entry-point",
         "genereraDemo",
       ]
-    dir: "src/main/java/functions"
+    dir: ""
