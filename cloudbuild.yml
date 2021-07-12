@@ -7,11 +7,11 @@ steps:
       [
         "functions",
         "deploy",
-        "generereaDemo",
+        "genereraDemo",
         "http",
         "--runtime",
         "java11",
         "--entry-point",
-        "generereaDemo",
+        "genereraDemo",
       ]
     dir: "function/dir/from/repo/root"
