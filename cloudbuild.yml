@@ -12,6 +12,6 @@ steps:
         "--runtime",
         "java11",
         "--entry-point",
-        "com.functions",
+        "HelloWorld.class",
       ]
     dir: "/workspace/"
