@@ -12,6 +12,6 @@ steps:
         "--runtime",
         "java11",
         "--entry-point",
-        "com.functions/",
+        "com.functions",
       ]
     dir: "/workspace/"
