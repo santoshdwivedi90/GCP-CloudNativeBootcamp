@@ -14,4 +14,4 @@ steps:
         "--entry-point",
         "genereraDemo",
       ]
-    dir: "function/dir/from/repo/root"
+    dir: "src/main/java/functions"
