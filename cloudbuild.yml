@@ -1,7 +1,17 @@
 steps:
-- name: 'gcr.io/cloud-builders/mvn'
-  args: ['clean', 'verify']
-  dir: 'function/dir/from/repo/root'
-- name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions', 'deploy', '[YOUR_DEPLOYED_FUNCTION_NAME]', '[YOUR_FUNCTION_TRIGGER]', '--runtime', 'java11', '--entry-point', '[YOUR_FUNCTION_NAME_IN_CODE]']
-  dir: 'function/dir/from/repo/root'
+  - name: "gcr.io/cloud-builders/mvn"
+    args: ["clean", "verify"]
+    dir: "function/dir/from/repo/root"
+  - name: "gcr.io/cloud-builders/gcloud"
+    args:
+      [
+        "functions",
+        "deploy",
+        "generereaDemo",
+        "http",
+        "--runtime",
+        "java11",
+        "--entry-point",
+        "generereaDemo",
+      ]
+    dir: "function/dir/from/repo/root"
