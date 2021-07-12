@@ -8,7 +8,7 @@ steps:
         "functions",
         "deploy",
         "genereraDemo",
-        "trigger-http",
+        "--trigger-http",
         "--runtime",
         "java11",
         "--entry-point",
