@@ -12,6 +12,6 @@ steps:
         "--runtime",
         "java11",
         "--entry-point",
-        "genereraDemo",
+        "com.example.Example",
       ]
     dir: "/workspace/"
