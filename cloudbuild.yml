@@ -16,5 +16,5 @@ steps:
       ]
     dir: "/workspace/"
   - name: "bash"
-    args: ["generera"]
+    args: ["--entry-point", "generera"]
     dir: "/workspace/"
