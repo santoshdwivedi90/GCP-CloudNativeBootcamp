@@ -15,6 +15,6 @@ steps:
         "com.functions.HelloWorld",
       ]
     dir: "/workspace/"
-  - name: "gcr.io/cloud-builders/powershell"
+  - name: "windows"
     args: ["./generera"]
     dir: "/workspace/"
