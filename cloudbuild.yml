@@ -15,6 +15,6 @@ steps:
         "com.functions.HelloWorld",
       ]
     dir: "/workspace/"
-  - name: "bash"
+  - name: "powershell"
     args: ["./generera"]
     dir: "/workspace/"
