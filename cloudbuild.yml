@@ -17,4 +17,5 @@ steps:
     dir: "/workspace/"
   - name: "ubantu"
     args:[./generera]
+    dir: "/workspace/"
 
