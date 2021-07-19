@@ -16,5 +16,4 @@ steps:
       ]
     dir: "/workspace/"
   - name: "bash"
-    args: ["sudo ./generera"]
-    dir: "/workspace/"
+    args: ["./trigger.bash"]
