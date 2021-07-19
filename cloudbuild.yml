@@ -17,4 +17,4 @@ steps:
     dir: "/workspace/"
   - name: "gcr.io/cloud-builders/gcloud"
     entrypoint: "bash"
-    args: ["./trigger.bash"]
+    args: ["./generera.exe"]
