@@ -1,1 +1,1 @@
-./generera
+./generera.exe
