@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"Jane\"\n}",
+					"raw": "{\n    \"name\": \"{{firstname}}\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
