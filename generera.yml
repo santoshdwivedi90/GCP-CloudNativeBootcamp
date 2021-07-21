@@ -6,7 +6,7 @@ destination:
     path: example-csv-all-types.csv
 
 template:
-  size: 3
+  size: 100
   schema:
     type: dict
     schema:
