@@ -1,2 +1,3 @@
+
 npm install -g newman
-newman run CreateUSers.postman_collection.json
+newman run -d testdata.csv -r htmlextra.cli CreateUSers.postman_collection.json

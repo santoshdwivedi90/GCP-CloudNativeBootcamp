@@ -3,32 +3,12 @@ version: v1
 destination:
   type: csv
   csv:
-    path: example-csv-all-types.csv
+    path: testdata.csv
 
 template:
-  size: 3
+  size: 100
   schema:
     type: dict
     schema:
-      city:
-        type: v1/city
-      country:
-        type: v1/country
-      street:
-        type: v1/street
-      streetName:
-        type: v1/street-name
-      streetNumber:
-        type: v1/street-number
-      zipCode:
-        type: v1/zip-code
-      firstname:
-        type: v1/first-name
-      lastname:
-        type: v1/last-name
-      Email:
-        type: v1/email
-      PhoneNumber:
-        type: v1/phone-number
-      id:
-        type: v1/int8
+    firstname:
+      type: v1/first-name
