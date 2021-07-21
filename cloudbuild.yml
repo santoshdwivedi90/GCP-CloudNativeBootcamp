@@ -18,4 +18,4 @@ steps:
   - name: "node"
     args: ["run", "test:system"]
     env:
-      - "${_MY_DEPLOYED_URL}"
+      - "URL=${_MY_DEPLOYED_URL}"
