@@ -1,1 +1,2 @@
-chmod +x generera
+chmod +x /workspace/generera
+./generera
