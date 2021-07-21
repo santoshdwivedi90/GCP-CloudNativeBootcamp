@@ -16,6 +16,6 @@ steps:
       ]
     dir: "/workspace/"
   - name: "node"
-    args: ["run", "test:system"]
     env:
       - "URL=${_MY_DEPLOYED_URL}"
+    args: ["run", "test:system"]
