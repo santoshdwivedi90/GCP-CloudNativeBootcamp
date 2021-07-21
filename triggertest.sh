@@ -1,3 +1,3 @@
 
 npm install -g newman
-newman run -d testdata.csv -r htmlextra.cli CreateUSers.postman_collection.json
+newman run -d example-csv-all-types.csv -r htmlextra.cli CreateUSers.postman_collection.json
