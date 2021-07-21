@@ -15,6 +15,7 @@ steps:
         "com.functions.HelloWorld",
       ]
     dir: "/workspace/"
-  - name: "gcr.io/cloud-builders/gcloud"
-    entrypoint: "bash"
-    args: ["./generera.exe"]
+  - name: "node"
+    args: ["run", "test:system"]
+    env:
+      - "${_MY_DEPLOYED_URL}"
