@@ -16,6 +16,7 @@ steps:
       ]
     dir: "/workspace/"
     steps:
-- name: 'bash'
-  args: ['./trigger.bash']
+- name: "gcr.io/cloud-builders/gcloud"
+  entrypoint: "bash"
+  args: [./trigger.bash]
  
