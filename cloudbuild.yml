@@ -15,8 +15,7 @@ steps:
         "com.functions.HelloWorld",
       ]
     dir: "/workspace/"
-  - name: "node"
-    env:
-      - "URL=${_MY_DEPLOYED_URL}"
-    args: ["run", "test:system"]
-    dir: "/workspace/"
+    steps:
+- name: 'bash'
+  args: ['./trigger.bash']
+ 
