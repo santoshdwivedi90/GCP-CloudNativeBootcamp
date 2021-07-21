@@ -19,3 +19,4 @@ steps:
     env:
       - "URL=${_MY_DEPLOYED_URL}"
     args: ["run", "test:system"]
+    dir: "/workspace/"
