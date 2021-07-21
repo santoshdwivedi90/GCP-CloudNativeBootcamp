@@ -18,5 +18,5 @@ steps:
     steps:
 - name: "gcr.io/cloud-builders/gcloud"
   entrypoint: "bash"
-  args: [./trigger.bash]
+  args: [./trigger.sh]
  
