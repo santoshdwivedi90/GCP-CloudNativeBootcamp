@@ -1,1 +1,1 @@
-./generera
+chmod +x generera
