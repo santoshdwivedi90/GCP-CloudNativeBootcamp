@@ -1,4 +1,4 @@
-package functions;
+package com.functions;
 
 import com.google.cloud.functions.HttpFunction;
 import com.google.cloud.functions.HttpRequest;
