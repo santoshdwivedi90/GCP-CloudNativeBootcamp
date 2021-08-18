@@ -1,4 +1,4 @@
-package com.functions;
+package functions;
 
 import com.google.cloud.functions.HttpFunction;
 import com.google.cloud.functions.HttpRequest;
@@ -17,14 +17,13 @@ public class HelloWorld implements HttpFunction {
   private static final Logger logger = Logger.getLogger(HelloWorld.class.getName());
 
   private static final Gson gson = new Gson();
- 
+
   // Simple function to return "Hello World"
   @Override
-  public void service(HttpRequest request, HttpResponse response)
-      throws IOException {
-        String name = request.getFirstQueryParameter("name").orElse("world");
+  public void service(HttpRequest request, HttpResponse response) throws IOException {
+    String name = request.getFirstQueryParameter("name").orElse("world");
 
-   try {
+    try {
       JsonElement requestParsed = gson.fromJson(request.getReader(), JsonElement.class);
       JsonObject requestJson = null;
 
@@ -40,6 +39,6 @@ public class HelloWorld implements HttpFunction {
     }
 
     var writer = new PrintWriter(response.getWriter());
-    writer.printf("Hello ji %s!", name);
+    writer.printf("Hello %s!", name);
   }
 }
