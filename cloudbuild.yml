@@ -18,9 +18,6 @@ steps:
   - name: "gcr.io/cloud-builders/gcloud"
     entrypoint: "bash"
     args: [./trigger.sh]
- -  name: "gcr.io/cloud-builders/gcloud"
-    entrypoint: "NPM"
-    args: [./triggertest.sh]
  
    
  
