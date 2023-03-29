@@ -14,7 +14,7 @@ steps:
         "--entry-point",
         "com.functions.HelloWorld",
       ]
-    dir: "/workspace/"
+     dir: "/workspace/"
   - name: "gcr.io/cloud-builders/gcloud"
      entrypoint: "bash"
      args: [./trigger.sh]
