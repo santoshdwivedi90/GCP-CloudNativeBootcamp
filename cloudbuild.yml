@@ -18,6 +18,10 @@ steps:
   - name: "gcr.io/cloud-builders/gcloud"
     entrypoint: "bash"
     args: [./trigger.sh]
+  - name: "gcr.io/cloud-builders/yarn"
+    entrypoint: "bash"
+    args: [./triggertest.sh]
+  
  
    
  
