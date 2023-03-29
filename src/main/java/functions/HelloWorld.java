@@ -18,7 +18,7 @@ public class HelloWorld implements HttpFunction {
 
   private static final Gson gson = new Gson();
 
-  //  Simple function to return "Hello World"
+  //  Sple function to return "Hello World"
   @Override
   public void service(HttpRequest request, HttpResponse response) throws IOException {
     String name = request.getFirstQueryParameter("name").orElse("world");
