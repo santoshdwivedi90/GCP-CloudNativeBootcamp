@@ -15,11 +15,10 @@ steps:
         "com.functions.HelloWorld",
       ]
     dir: "/workspace/"
-  - name: "gcr.io/cloud-builders/gcloud"
-    entrypoint: "bash"
-    args: [./trigger.sh]
-  - name: "gcr.io/cloud-builders/gcloud"
-    entrypoint: "bash"
-    args: [./triggertest.sh]
+    steps:
+- name: "gcr.io/cloud-builders/gcloud"
+  entrypoint: "bash"
+  args: [./trigger.sh]
+
    
  
