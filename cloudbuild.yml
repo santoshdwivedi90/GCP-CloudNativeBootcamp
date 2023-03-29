@@ -9,8 +9,6 @@ steps:
         "deploy",
         "genereraDemo",
         "--trigger-http",
-        "--region",
-        "europe-west1",
         "--runtime",
         "java11",
         "--entry-point",
