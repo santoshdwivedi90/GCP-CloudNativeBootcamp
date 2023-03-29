@@ -21,8 +21,4 @@ steps:
 - name: "gcr.io/cloud-builders/gcloud"
   entrypoint: "bash"
   args: [./trigger.sh]
-steps:
-- name: "gcr.io/cloud-builders/gcloud"
-  entrypoint: "bash"
-  args: [./triggertest.sh]
  
