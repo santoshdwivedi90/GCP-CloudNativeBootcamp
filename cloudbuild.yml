@@ -14,13 +14,13 @@ steps:
         "--entry-point",
         "com.functions.HelloWorld",
       ]
-     dir: "/workspace/"
+    dir: "/workspace/"
   - name: "gcr.io/cloud-builders/gcloud"
-     entrypoint: "bash"
-     args: [./trigger.sh]
+    entrypoint: "bash"
+    args: [./trigger.sh]
  -  name: "gcr.io/cloud-builders/gcloud"
-     entrypoint: "NPM"
-     args: [./triggertest.sh]
+    entrypoint: "NPM"
+    args: [./triggertest.sh]
  
    
  
